@@ -1,0 +1,65 @@
+@font-face {
+    font-family: robotor;
+    src: url("robotor.ttf");
+}
+
+@font-face {
+    font-family: robotob;
+    src: url("robotob.ttf");
+}
+
+body {
+    background-color: #373737;
+}
+
+.borito {
+    background-image: linear-gradient(to bottom, rgba(55, 55, 55, 0), rgb(55, 55, 55)), linear-gradient(rgba(55, 55, 55, 0.2), rgba(55, 55, 55, 0.2)), url("hatter.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.borito img {
+    width: 55%;
+}
+
+.borito button {
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 30px;
+    border-color: unset;
+    border-style: unset;
+    font-family: robotor;
+    font-size: 20px;
+    color: #ef3e57;
+}
+
+.borito button:active {
+    background-color: #ef3e57;
+    color: white;
+}
+
+.ajanlatok {
+    background-color: #373737;
+    margin-top: 100px;
+    font-family: robotor;
+    color: white;
+}
+
+.ajanlatok h1 {
+    font-size: 50px;
+    font-family: robotob;
+    margin-bottom: 25px;
+}
+
+.belso {
+    width: 60%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.ajanlat .tartalom p {
+    width: 100%;
+    padding: 10px;
+    background-color: gray;
+}
