@@ -79,3 +79,19 @@ a {
 .sz p {
     padding: 10px;
 }
+
+#gomb {
+    position: fixed;
+    right: unset;
+    bottom: unset;
+}
+
+.felgomb button {
+    border: none;
+    border-radius: 50%;
+    height: 290%;
+    width: 250%;
+    font-family: robotor;
+    font-size: 20px;
+    color: #ef3e57;
+}
