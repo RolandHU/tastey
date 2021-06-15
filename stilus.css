@@ -37,7 +37,7 @@ a {
     color: #ef3e57;
 }
 
-.borito button:active {
+.borito button:hover {
     background-color: #ef3e57;
     color: white;
 }
@@ -61,8 +61,21 @@ a {
     margin-bottom: 25px;
 }
 
-.ajanlat .tartalom p {
+.ajanlat {
+    margin-bottom: 10px;
+}
+
+.tartalom:hover {
+    outline: 3px solid #373737;
+    outline-offset: -3px;
+    cursor: pointer;
+}
+
+.sz {
     width: 100%;
+    background-color: #ef3e57;
+}
+
+.sz p {
     padding: 10px;
-    background-color: gray;
 }
