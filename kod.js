@@ -3,7 +3,7 @@ var gomb = document.getElementById("gomb");
 
 function gorgetes() {
     if (window.scrollY >= 920) {
-        gomb.style.right = "100px";
+        gomb.style.right = "105px";
         gomb.style.bottom = "100px";
     } else {
         gomb.style.right = "unset";
