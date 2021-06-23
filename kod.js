@@ -1,12 +1,15 @@
-window.addEventListener("scroll", gorgetes);
-var gomb = document.getElementById("gomb");
+var logo = document.getElementById("logo");
+window.addEventListener("ratechange", meretezes);
+window.addEventListener("resize", meretezes);
+window.addEventListener("load", meretezes);
 
-function gorgetes() {
-    if (window.scrollY >= 920) {
-        gomb.style.right = "110px";
-        gomb.style.bottom = "100px";
+function meretezes() {
+    var szel = window.innerWidth;
+    logo.style.width = "0px";
+    if (szel <= 500) {
+        logo.style.width = szel - 20 + "px";
     } else {
-        gomb.style.right = "unset";
-        gomb.style.bottom = "unset";
+        logo.style.width = "500px";
     }
+    console.log(szel)
 }
