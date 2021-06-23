@@ -9,89 +9,34 @@
 }
 
 body {
-    background-color: #373737;
-}
-
-.borito {
-    background-image: linear-gradient(to bottom, rgba(55, 55, 55, 0), rgb(55, 55, 55)), linear-gradient(rgba(55, 55, 55, 0.2), rgba(55, 55, 55, 0.2)), url("hatter.png");
-    background-size: cover;
     height: 100vh;
+    width: unset;
 }
 
-.borito img {
-    width: 55%;
+.kezdolap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("hatter.png");
+    background-size: cover;
 }
 
-a {
-    margin-top: 50px;
+#logo {
+    width: 0px;
 }
 
-.borito button {
-    width: 200px;
-    height: 50px;
-    border-radius: 30px;
-    border-color: unset;
-    border-style: unset;
-    font-family: robotor;
-    font-size: 20px;
-    color: #ef3e57;
+.gomb {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
-.borito button:hover {
-    background-color: #ef3e57;
-    color: white;
-}
-
-.ajanlatok {
-    background-color: #373737;
-    margin-top: 100px;
-    font-family: robotor;
-    color: white;
-}
-
-.ajanlatok h1 {
-    font-size: 50px;
-    font-family: robotob;
-    margin-bottom: 25px;
-}
-
-.belso {
-    width: 60%;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.ajanlat {
-    margin-bottom: 10px;
-}
-
-.tartalom:hover {
-    outline: 3px solid #373737;
-    outline-offset: -3px;
-    cursor: pointer;
-}
-
-.sz {
-    width: 100%;
-    background-color: #ef3e57;
-}
-
-.sz p {
-    padding: 10px;
-}
-
-#gomb {
-    position: fixed;
-    right: unset;
-    bottom: unset;
-}
-
-.felgomb button {
+#egomb {
+    width: 150px;
+    padding: 5px;
     border: none;
-    border-radius: 50%;
-    height: 290%;
-    width: 250%;
-    font-family: robotor;
-    font-size: 20px;
-    color: #ef3e57;
+    border-radius: 10px;
+    background: #ef3e57;
+    color: white;
 }
