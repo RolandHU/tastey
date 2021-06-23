@@ -1,15 +1,14 @@
 var logo = document.getElementById("logo");
-window.addEventListener("ratechange", meretezes);
-window.addEventListener("resize", meretezes);
+var gomb = document.getElementById("egomb");
 window.addEventListener("load", meretezes);
+window.addEventListener("resize", meretezes);
 
 function meretezes() {
-    var szel = window.innerWidth;
     logo.style.width = "0px";
-    if (szel <= 500) {
-        logo.style.width = szel - 20 + "px";
+    var szel = window.innerWidth;
+    if (szel >= 700) {
+        logo.style.width = "600px";
     } else {
-        logo.style.width = "500px";
+        logo.style.width = szel - 40 + "px";
     }
-    console.log(szel)
 }
